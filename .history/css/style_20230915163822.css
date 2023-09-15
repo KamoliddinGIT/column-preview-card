@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: 900px;
+  height: 500px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card__1 {
+  width: 350px;
+  height: 100%;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 45px;
+}
+
+.card__2 {
+  width: 350px;
+  height: 100%;
+  background-color: hsl(184, 100%, 22%);
+  padding: 45px;
+}
+
+.card__3 {
+  width: 350px;
+  height: 100%;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 45px;
+}
+
+.card {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.card img {
+  width: 64px;
+  height: 40px;
+}
+
+.card p {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0 0 50px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.card a {
+  font-family: "Lexend Deca", sans-serif;
+}
